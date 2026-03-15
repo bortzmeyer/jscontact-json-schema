@@ -70,7 +70,7 @@
         "relatedTo": {
           "type": "object",
           "patternProperties": {
-            ".*": {
+            "[A-Za-z0-9-_]": {
               "$ref": "#/$defs/Relation"
             }
           },
@@ -85,7 +85,7 @@
           "$ref": "#/$defs/IdMap",
           "properties": {
             "patternProperties": {
-              ".*": {
+              "[A-Za-z0-9-_]": {
                 "$ref": "#/$defs/Nickname"
               }
             }
@@ -96,7 +96,7 @@
           "$ref": "#/$defs/IdMap",
           "properties": {
             "patternProperties": {
-              ".*": {
+              "[A-Za-z0-9-_]": {
                 "$ref": "#/$defs/Organization"
               }
             }
@@ -111,7 +111,7 @@
           "$ref": "#/$defs/IdMap",
           "properties": {
             "patternProperties": {
-              ".*": {
+              "[A-Za-z0-9-_]": {
                 "$ref": "#/$defs/Title"
               }
             }
@@ -122,7 +122,7 @@
           "$ref": "#/$defs/IdMap",
           "properties": {
             "patternProperties": {
-              ".*": {
+              "[A-Za-z0-9-_]": {
                 "$ref": "#/$defs/EmailAddress"
               }
             }
@@ -133,7 +133,7 @@
           "$ref": "#/$defs/IdMap",
           "properties": {
             "patternProperties": {
-              ".*": {
+              "[A-Za-z0-9-_]": {
                 "$ref": "#/$defs/OnlineService"
               }
             }
@@ -144,7 +144,7 @@
           "$ref": "#/$defs/IdMap",
           "properties": {
             "patternProperties": {
-              ".*": {
+              "[A-Za-z0-9-_]": {
                 "$ref": "#/$defs/Phone"
               }
             }
@@ -155,7 +155,7 @@
           "$ref": "#/$defs/IdMap",
           "properties": {
             "patternProperties": {
-              ".*": {
+              "[A-Za-z0-9-_]": {
                 "$ref": "#/$defs/LanguagePref"
               }
             }
@@ -166,7 +166,7 @@
           "$ref": "#/$defs/IdMap",
           "properties": {
             "patternProperties": {
-              ".*": {
+              "[A-Za-z0-9-_]": {
                 "$ref": "#/$defs/Calendar"
               }
             }
@@ -177,7 +177,7 @@
           "$ref": "#/$defs/IdMap",
           "properties": {
             "patternProperties": {
-              ".*": {
+              "[A-Za-z0-9-_]": {
                 "$ref": "#/$defs/SchedulingAddress"
               }
             }
@@ -188,7 +188,7 @@
           "$ref": "#/$defs/IdMap",
           "properties": {
             "patternProperties": {
-              ".*": {
+              "[A-Za-z0-9-_]": {
                 "$ref": "#/$defs/Address"
               }
             }
@@ -199,7 +199,7 @@
           "$ref": "#/$defs/IdMap",
           "properties": {
             "patternProperties": {
-              ".*": {
+              "[A-Za-z0-9-_]": {
                 "$ref": "#/$defs/CryptoKey"
               }
             }
@@ -210,7 +210,7 @@
           "$ref": "#/$defs/IdMap",
           "properties": {
             "patternProperties": {
-              ".*": {
+              "[A-Za-z0-9-_]": {
                 "$ref": "#/$defs/Directory"
               }
             }
@@ -221,7 +221,7 @@
           "$ref": "#/$defs/IdMap",
           "properties": {
             "patternProperties": {
-              ".*": {
+              "[A-Za-z0-9-_]": {
                 "$ref": "#/$defs/Link"
               }
             }
@@ -232,7 +232,7 @@
           "$ref": "#/$defs/IdMap",
           "properties": {
             "patternProperties": {
-              ".*": {
+              "[A-Za-z0-9-_]": {
                 "$ref": "#/$defs/Media"
               }
             }
@@ -242,7 +242,7 @@
         "localizations": {
           "type": "object",
           "patternProperties": {
-            ".*": {
+            "[A-Za-z0-9-_]": {
               "$ref": "#/$defs/PatchObject"
             }
           },
@@ -253,7 +253,7 @@
           "$ref": "#/$defs/IdMap",
           "properties": {
             "patternProperties": {
-              ".*": {
+              "[A-Za-z0-9-_]": {
                 "$ref": "#/$defs/Anniversary"
               }
             }
@@ -268,7 +268,7 @@
           "$ref": "#/$defs/IdMap",
           "properties": {
             "patternProperties": {
-              ".*": {
+              "[A-Za-z0-9-_]": {
                 "$ref": "#/$defs/Note"
               }
             }
@@ -279,7 +279,7 @@
           "$ref": "#/$defs/IdMap",
           "properties": {
             "patternProperties": {
-              ".*": {
+              "[A-Za-z0-9-_]": {
                 "$ref": "#/$defs/PersonalInfo"
               }
             }
@@ -506,7 +506,7 @@
           "$ref": "#/$defs/IdMap",
           "properties": {
             "patternProperties": {
-              ".*": {
+              "[A-Za-z0-9-_]": {
                 "$ref": "#/$defs/Pronouns"
               }
             }
@@ -1413,7 +1413,7 @@
     "StringBooleanMap": {
       "type": "object",
       "patternProperties": {
-        ".*": {
+        "[A-Za-z0-9-_]": {
           "type": "boolean",
           "const": true
         }
